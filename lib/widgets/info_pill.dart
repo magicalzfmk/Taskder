@@ -29,22 +29,21 @@ class InfoPill extends StatelessWidget {
         ),
         child: Center(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Text(
                 numValue,
                 style: const TextStyle(
                   color: Colors.white,
-                  fontSize: 15.0,
+                  fontSize: 12.0,
                 ),
-              ),
-              const SizedBox(
-                height: 5.0,
               ),
               Text(
                 name,
                 style: const TextStyle(
                   color: Colors.white,
-                  fontSize: 15.0,
+                  fontSize: 12.0,
                 ),
               ),
             ],

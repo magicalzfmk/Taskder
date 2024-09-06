@@ -62,25 +62,33 @@ class TaskTile extends StatelessWidget {
               ),
             ),
             const SizedBox(width: 10.0),
-            Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  taskTitle,
-                  style: TextStyle(
-                    decoration: (isChecked)
-                        ? (TextDecoration.lineThrough)
-                        : (TextDecoration.none),
-                  ),
+            Expanded(
+              child: SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      taskTitle,
+                      style: TextStyle(
+                        fontSize: 12,
+                        decoration: (isChecked)
+                            ? (TextDecoration.lineThrough)
+                            : (TextDecoration.none),
+                      ),
+                    ),
+                    SizedBox(
+                      height: 10.0,
+                    ),
+                    const Text(
+                      'time will be displayed here',
+                      style: TextStyle(fontSize: 12),
+                    ),
+                  ],
                 ),
-                SizedBox(
-                  height: 10.0,
-                ),
-                const Text('time will be displayed here'),
-              ],
+              ),
             ),
-            Expanded(child: Container()),
             Checkbox(
               value: isChecked,
               activeColor: colors[severity],
