@@ -14,12 +14,12 @@ A No Nonsense To-Do and Notes App
 - Neo-Minimalist Looks with a touch of Material Design
 
 ## Screenshots ([All Designs(Figma)](https://www.figma.com/community/file/1414196804569970098/taskder))
-![Banner](https://github.com/magicalzfmk/Taskder/assets/Images/Banner.png)
+![Banner](https://github.com/magicalzfmk/Taskder/blob/main/assets/Images/Banner.png?raw=true)
 
 
-| Home Screen                                                                        | Task Screen                                                                        | Notes Screen                                                                        |
-| ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| ![homescreen](https://github.com/magicalzfmk/Taskder/assets/images/HomeScreen.png) | ![taskscreen](https://github.com/magicalzfmk/Taskder/assets/images/TaskScreen.png) | ![notescreen](https://github.com/magicalzfmk/Taskder/assets/images/NotesScreen.png) |
+| Home Screen                                                                                           | Task Screen                                                                                           | Notes Screen                                                                                           |
+| ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| ![homescreen](https://github.com/magicalzfmk/Taskder/blob/main/assets/Images/HomeScreen.png?raw=true) | ![taskscreen](https://github.com/magicalzfmk/Taskder/blob/main/assets/Images/TaskScreen.png?raw=true) | ![notescreen](https://github.com/magicalzfmk/Taskder/blob/main/assets/Images/NotesScreen.png?raw=true) |
 
 
 ## Getting Started
@@ -41,7 +41,7 @@ To get started with Taskder, simply download the source code and build it yourse
 
 ## Contributing
 
-We welcome contributions from anyone interested in helping to improve Taskder! Feel free to submit a pull request or open an issue if you notice any bugs or have suggestions for new features.
+I welcome contributions from anyone interested in helping to improve Taskder! Feel free to submit a pull request or open an issue if you notice any bugs or have suggestions for new features.
 
 
 ## License
