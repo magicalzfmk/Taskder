@@ -13,10 +13,14 @@ A No Nonsense To-Do and Notes App
 - Add Importance Levels to Tasks
 - Neo-Minimalist Looks with a touch of Material Design
 
-## Screenshots ([All Designs(Figma)(Soon)])
-- Soon
+## Screenshots ([All Designs(Figma)](https://www.figma.com/community/file/1414196804569970098/taskder))
+![Banner](https://github.com/magicalzfmk/Taskder/assets/Images/Banner.png)
 
-![Banner(Soon)](https://github.com/magicalzfmk/Taskder/assets/)
+
+| Home Screen                                                                        | Task Screen                                                                        | Notes Screen                                                                        |
+| ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| ![homescreen](https://github.com/magicalzfmk/Taskder/assets/images/HomeScreen.png) | ![taskscreen](https://github.com/magicalzfmk/Taskder/assets/images/TaskScreen.png) | ![notescreen](https://github.com/magicalzfmk/Taskder/assets/images/NotesScreen.png) |
+
 
 ## Getting Started
 
