@@ -10,9 +10,11 @@ class ScreenMaker extends StatelessWidget {
     super.key,
     this.showPill = false,
     required this.child,
+    this.showCount = false,
   });
   final bool showPill;
   final Widget child;
+  final bool showCount;
 
   @override
   Widget build(BuildContext context) {
@@ -109,7 +111,7 @@ class ScreenMaker extends StatelessWidget {
                                 ],
                               ),
                             )
-                          : SizedBox(
+                          : const SizedBox(
                               height: 10.0,
                             ),
                       Expanded(

@@ -3,28 +3,19 @@ import 'package:taskder/constants.dart';
 import 'package:taskder/widgets/tasks_list.dart';
 import '../widgets/screenMaker.dart';
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+class NotesScreen extends StatefulWidget {
+  const NotesScreen({super.key});
 
   @override
-  State<HomeScreen> createState() => _HomeScreenState();
+  State<NotesScreen> createState() => _NotesScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _NotesScreenState extends State<NotesScreen> {
   @override
   Widget build(BuildContext context) {
     return ScreenMaker(
-      showPill: true,
       child: Column(
         children: [
-          const Text(
-            "TODAY'S TASKS",
-            style: TextStyle(
-              color: kDarkGreyColor,
-              fontFamily: 'Inconsolata',
-              fontSize: 25.0,
-            ),
-          ),
           const SizedBox(
             height: 30.0,
           ),
